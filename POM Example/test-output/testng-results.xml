@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="HRM Suite" duration-ms="88815" started-at="2020-02-20T14:41:18 PKT" finished-at="2020-02-20T14:42:47 PKT">
+    <groups>
+    </groups>
+    <test name="HRMLoginTest.java" duration-ms="88815" started-at="2020-02-20T14:41:18 PKT" finished-at="2020-02-20T14:42:47 PKT">
+      <class name="Test.SkillsTest">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Test.SkillsTest@1ad282e0]" name="LaunchBrowser" is-config="true" duration-ms="3835" started-at="2020-02-20T14:41:29 PKT" finished-at="2020-02-20T14:41:33 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="BeforeProfile()[pri:0, instance:Test.SkillsTest@1ad282e0]" name="BeforeProfile" is-config="true" duration-ms="3340" started-at="2020-02-20T14:41:33 PKT" finished-at="2020-02-20T14:41:36 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeProfile -->
+        <test-method status="PASS" signature="AddNewSkill(java.lang.String)[pri:0, instance:Test.SkillsTest@1ad282e0]" name="AddNewSkill" duration-ms="25518" started-at="2020-02-20T14:41:36 PKT" finished-at="2020-02-20T14:42:01 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Regression Testing (Paradiagms)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewSkill -->
+        <test-method status="PASS" signature="RemoveNewSkill()[pri:0, instance:Test.SkillsTest@1ad282e0]" name="RemoveNewSkill" duration-ms="4805" started-at="2020-02-20T14:42:01 PKT" finished-at="2020-02-20T14:42:06 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RemoveNewSkill -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.SkillsTest@1ad282e0]" name="closeBrowser" is-config="true" duration-ms="151" started-at="2020-02-20T14:42:06 PKT" finished-at="2020-02-20T14:42:06 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.SkillsTest -->
+      <class name="Test.EventTest">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Test.EventTest@7f416310]" name="LaunchBrowser" is-config="true" duration-ms="4170" started-at="2020-02-20T14:42:06 PKT" finished-at="2020-02-20T14:42:11 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="BeforeEvent()[pri:0, instance:Test.EventTest@7f416310]" name="BeforeEvent" is-config="true" duration-ms="3338" started-at="2020-02-20T14:42:11 PKT" finished-at="2020-02-20T14:42:14 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeEvent -->
+        <test-method status="PASS" signature="NewEventAddition(java.lang.String)[pri:0, instance:Test.EventTest@7f416310]" name="NewEventAddition" duration-ms="20909" started-at="2020-02-20T14:42:14 PKT" finished-at="2020-02-20T14:42:35 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Page Object Model]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewEventAddition -->
+        <test-method status="PASS" signature="EditEvent()[pri:0, instance:Test.EventTest@7f416310]" name="EditEvent" duration-ms="9818" started-at="2020-02-20T14:42:35 PKT" finished-at="2020-02-20T14:42:45 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditEvent -->
+        <test-method status="PASS" signature="DeleteEvent()[pri:0, instance:Test.EventTest@7f416310]" name="DeleteEvent" duration-ms="2102" started-at="2020-02-20T14:42:45 PKT" finished-at="2020-02-20T14:42:47 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteEvent -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.EventTest@7f416310]" name="closeBrowser" is-config="true" duration-ms="111" started-at="2020-02-20T14:42:47 PKT" finished-at="2020-02-20T14:42:47 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.EventTest -->
+      <class name="Test.HRMLoginTest">
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:Test.HRMLoginTest@51b279c9]" name="LaunchBrowser" is-config="true" duration-ms="5220" started-at="2020-02-20T14:41:18 PKT" finished-at="2020-02-20T14:41:23 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="test_Home_Page_Appear_Correct(java.lang.String, java.lang.String)[pri:0, instance:Test.HRMLoginTest@51b279c9]" name="test_Home_Page_Appear_Correct" duration-ms="3333" started-at="2020-02-20T14:41:23 PKT" finished-at="2020-02-20T14:41:27 PKT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[farhan.ahmed@nxb.com.pk]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[04Lniy]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_Home_Page_Appear_Correct -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:Test.HRMLoginTest@51b279c9]" name="closeBrowser" is-config="true" duration-ms="2084" started-at="2020-02-20T14:41:27 PKT" finished-at="2020-02-20T14:41:29 PKT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.HRMLoginTest -->
+    </test> <!-- HRMLoginTest.java -->
+  </suite> <!-- HRM Suite -->
+</testng-results>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [HRM Suite]" parallel="tests">
+  <test name="HRMLoginTest.java(failed)" parallel="tests">
+    <classes>
+      <class name="Test.EventTest">
+        <parameter name="eventName" value="Page Object Model"/>
+        <parameter name="password" value="04Lniy"/>
+        <parameter name="Skill" value="Regression Testing (Paradiagms)"/>
+        <parameter name="username" value="farhan.ahmed@nxb.com.pk"/>
+        <methods>
+          <include name="EditEvent"/>
+          <include name="LaunchBrowser"/>
+          <include name="DeleteEvent"/>
+          <include name="NewEventAddition" invocation-numbers="0"/>
+          <include name="BeforeEvent"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test.EventTest -->
+      <class name="Test.SkillsTest">
+        <parameter name="eventName" value="Page Object Model"/>
+        <parameter name="password" value="04Lniy"/>
+        <parameter name="Skill" value="Regression Testing (Paradiagms)"/>
+        <parameter name="username" value="farhan.ahmed@nxb.com.pk"/>
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="BeforeProfile"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test.SkillsTest -->
+      <class name="Test.HRMLoginTest">
+        <parameter name="eventName" value="Page Object Model"/>
+        <parameter name="password" value="04Lniy"/>
+        <parameter name="Skill" value="Regression Testing (Paradiagms)"/>
+        <parameter name="username" value="farhan.ahmed@nxb.com.pk"/>
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- Test.HRMLoginTest -->
+    </classes>
+  </test> <!-- HRMLoginTest.java(failed) -->
+</suite> <!-- Failed suite [HRM Suite] -->

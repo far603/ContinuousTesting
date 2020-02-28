@@ -1,0 +1,42 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite thread-count="1" verbose="5" name="HRM Suite"
+	annotations="JDK" parallel="tests">
+
+	<test name="HRMLoginTest.java">
+
+		<classes>
+			<class name="Test.HRMLoginTest">
+				<parameter name="username" value="farhan.ahmed@nxb.com.pk"></parameter>
+				<parameter name="password" value="04Lniy">
+				</parameter>
+				<methods>
+					<include name="test_Home_Page_Appear_Correct"></include>
+				</methods>
+
+			</class>
+			<class name="Test.SkillsTest">
+
+				<parameter name="Skill"
+					value="Regression Testing (Paradiagms)"></parameter>
+				<methods>
+					<include name="AddNewSkill"></include>
+					<include name="RemoveNewSkill"></include>
+				</methods>
+
+			</class>
+			<class name="Test.EventTest">
+
+				<parameter name="eventName" value="Page Object Model"></parameter>
+				<methods>
+					<include name="NewEventAddition"></include>
+					<include name="EditEvent"></include>
+					<include name="DeleteEvent"></include>
+				</methods>
+
+			</class>
+		</classes>
+	</test>
+
+
+</suite>
